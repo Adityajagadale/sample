@@ -1,0 +1,9 @@
+from node:latest
+
+copy . .
+
+RUN npm install
+
+EXPOSE 8080
+
+cmd ["node","app.js"]

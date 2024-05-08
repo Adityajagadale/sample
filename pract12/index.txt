@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Simple Mobile Website</title>
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<!-- Home Page -->
+<div data-role="page" id="home">
+  <div data-role="header">
+    <h1>Home</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Welcome to the Home page!</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+      <input type="submit" value="Submit">
+    </form>
+    <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+    <a href="#about" class="ui-btn ui-icon-info ui-btn-icon-left">About</a>
+  </div>
+  <div data-role="footer">
+    <h4>&copy; 2024 Simple Mobile Website</h4>
+  </div>
+</div>
+
+<!-- About Page -->
+<div data-role="page" id="about">
+  <div data-role="header">
+    <h1>About</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>This is the About page.</p>
+    <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+  </div>
+  <div data-role="footer">
+    <h4>&copy; 2024 Simple Mobile Website</h4>
+  </div>
+</div>
+
+</body>
+</html>

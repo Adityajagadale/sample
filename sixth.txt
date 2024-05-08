@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>JavaScript Example</h1>
+
+    <script>
+        // Define an array to store user registration data
+let users = [];
+
+// Function to handle user registration
+function registerUser() {
+    // Get user input for registration
+    let name = prompt("Enter your name:");
+    let email = prompt("Enter your email:");
+    let password = prompt("Enter your password:");
+    
+    // Create an object to store user data
+    let user = {
+        name: name,
+        email: email,
+        password: password
+    };
+    
+    // Push user data object to the array
+    users.push(user);
+    
+    // Display success message
+    console.log("User registered successfully!");
+    console.log(users)
+}
+
+// Call the registerUser function to start registration process
+registerUser();
+        
+    </script>
+    
+</body>
+</html>

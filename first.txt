@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<h lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information Form</title>
+</head>
+<body>
+    
+    <h2>Student Information Form</h2>
+    
+    <form action="#" method="post">
+        <label>Name: <input type="text" name="name"></label><br>
+        <label>Email: <input type="text" name="email"></label><br>
+        <label>Age: <input type="text" name="age"></label><br>
+        <label>Gender: <input type="radio" name="gender" value="Male">Male <input type="radio" name="gender" value="Female">Female</label><br>
+        <label>Bio: <textarea name="bio" rows="4" cols="50"></textarea></label><br>
+        <label>Interests: <input type="checkbox" name="interests" value="Music">Music <input type="checkbox" name="interests" value="Sports">Sports <input type="checkbox" name="interests" value="Reading">Reading</label><br>
+        <label>Country: <select name="country"><option value="USA">USA</option><option value="UK">UK</option><option value="Canada">Canada</option><option value="Australia">Australia</option></select></label><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+
+    
+    
+</body>
+</html>
